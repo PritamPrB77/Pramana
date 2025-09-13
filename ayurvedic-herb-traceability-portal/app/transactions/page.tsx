@@ -13,7 +13,7 @@ const transactionData = [
     role: "Farmer",
     name: "Rajesh Kumar",
     timestamp: "2024-01-15T08:30:00Z",
-    location: "Kerala, India",
+    location: "Bhubaneswar,Odisha, India",
     action: "Herb Cultivation",
     icon: User,
     color: "bg-green-100 text-green-800",
