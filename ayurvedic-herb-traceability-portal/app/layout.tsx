@@ -19,7 +19,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Ayurvedic Herb Traceability Portal",
+  title: "Pramana",
   description: "Track the journey of Ayurvedic herbs from farm to consumer using blockchain technology",
   generator: "v0.app",
 }

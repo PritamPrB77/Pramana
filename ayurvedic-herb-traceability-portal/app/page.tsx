@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { QrCode, Search, Leaf } from "lucide-react"
 
+
 export default function ScannerPage() {
   const [batchId, setBatchId] = useState("")
   const [scanResult, setScanResult] = useState("")
@@ -37,12 +38,14 @@ export default function ScannerPage() {
       <header className="border-b border-border bg-card">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center gap-3">
-            <div className="flex items-center justify-center w-10 h-10 bg-primary rounded-lg">
-              <Leaf className="w-6 h-6 text-primary-foreground" />
-            </div>
+            {/* <div className="flex items-center justify-center w-10 h-10 bg-primary rounded-lg">
+              {/* <Leaf className="w-6 h-6 text-primary-foreground" /> */}
+            {/* </div>  */}
             <div>
-              <h1 className="text-2xl font-bold text-foreground">Ayurvedic Herb Traceability</h1>
-              <p className="text-muted-foreground">Track your herbs from farm to consumer</p>
+              <h1 className="text-2xl font-bold text-foreground">
+                <img src="/logod.png" alt="Pramana Logo" className="inline h-17" /> 
+              </h1>
+              <p className="text-muted-foreground"></p>
             </div>
           </div>
         </div>
