@@ -464,7 +464,7 @@ export default function FarmerDashboard() {
       formData.append("image", image)
       formData.append("organ", organ)
 
-      const response = await fetch("http://localhost:5000/api/identify", {
+      const response = await fetch("https://image-recognition-2.onrender.com/api/identify", {
         method: "POST",
         body: formData,
       })
